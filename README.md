@@ -22,10 +22,11 @@ java -version
 
 # 赋权
 chmod u+x {YOUR_PATH}/nand2tetris/tools/*.sh
-# 设置环境变量
+# bash 设置环境变量
 echo "export PATH=$PATH:{YOUR_PATH}/nand2tetris/tools" >> ~/.bash_profile
 source ~/.bash_profile
-echo "export PATH=$PATH:/Users/howie/Documents/soft/git/nand2tetris/.files/nand2tetris/tools" >> ~/.zshrc
+# zsh 设置环境变量
+echo "export PATH=$PATH:{YOUR_PATH}s/nand2tetris/tools" >> ~/.zshrc
 source ~/.zshrc
 # 运行软件
 HardwareSimulator.sh
@@ -39,8 +40,8 @@ HardwareSimulator.sh
 
 学习规划：
 
-- [ ][第一章：布尔逻辑](./chapter01/) ⏰ 21-11-01~21-11-07
-- [ ][第二章：布尔运算](./chapter01/) ⏰
+- [ ][第一章：布尔逻辑](./chapter01/)
+- [ ][第二章：布尔运算](./chapter01/)
 
 ## 👀 资料
 
